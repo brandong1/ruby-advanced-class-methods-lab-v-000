@@ -48,7 +48,7 @@ class Song
     @@all.sort_by{|song| song.name}
   end
 
-  def self.new_from_filename(filename)
+  def self.new_from_filename(filename)learn submit
     song = self.new
     filename = filename.split(" - ")
     song.artist_name = filename[0]
